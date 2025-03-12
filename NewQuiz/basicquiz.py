@@ -74,6 +74,8 @@ def update_timer(time_left):
     else:
         response_label.config(text="Time's up! ⏳", fg="red")
         timeout_sound.play()  # 🔊 Play timeout sound
+        yes_button.config(state=tk.DISABLED)
+        no_button.config(state=tk.DISABLED)
         root.after(1500, next_question)
 
 # Function to load the next question
