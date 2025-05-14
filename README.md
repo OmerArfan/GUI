@@ -1,1 +1,1 @@
-Stay tuned! Meanwhile, check my "GameProjectory" repository!
+For new content, check platformer02!
